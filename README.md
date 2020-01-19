@@ -31,13 +31,13 @@ You can reload the `index.html` page any time you want to run the tests again an
 
 - [ ] Create a `BankAccount` class
 
-- [ ] The `BankAccount` class must access only one parameters - the `name` of the account owner. For example, `new BankAccount('Arunas')`
+- [ ] The `BankAccount` class constructor must accept only one parameter - the `name` of the account owner. An example of how it's going to be used: `new BankAccount('Arunas')`
 
-- [ ] The `BankAccount` must also have a `balance` which will be `0` for all new accounts
+- [ ] The `BankAccount` must also have a `balance` property which will be `0` for all new accounts.
 
 - [ ] The user must be able to access the `name` and `balance` properties of the bank account. E.g. `account.name` and `account.balance`
 
-- [ ] The user must NOT be able to change the balance of the account. E.g. `account.balance = 100000` should NOT change the actual balance. Hint: use the magical `set balance()` setter method to change the default behaviour
+- [ ] The user must NOT be able to change the balance of the account. E.g. the line `account.balance = 100000` should NOT change the actual balance. Hint: use the magical `set balance()` setter method to change the default behaviour
 
 - [ ] The user must be able to **deposit** (put in) money. Create a `deposit(amount)` method which will take the `amount` of money to put into the account.
 
